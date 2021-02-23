@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title> Mój blog </title>
+<meta charset="UTF-8">
+
+
+<style>
+h1{
+color: #ff9900;
+}
+
+p{
+color: #ffcc00;
+}
+
+body{
+background-color: #33ccff;
+margin-left: 100px;
+margin-right: 100px;
+align: center;
+}
+
+</style>
+<script>
+
+	function rozwijaj1()
+	{
+	document.getElementById("p1").innerHTML = "Szansa opadów: 24%, Wilgotność: 89%, Wiatr: 14km/h."
+	}
+	function rozwijaj2()
+	{
+	document.getElementById("p2").innerHTML = "Szansa opadów: 14%, Wilgotność: 85%, Wiatr: 24km/h."
+	}
+	function rozwijaj3()
+	{
+	document.getElementById("p3").innerHTML = "Szansa opadów: 15%, Wilgotność: 91%, Wiatr: 16km/h."
+	}
+
+</script>
+</head>
+<body>
+</p>
+<h1>Rzeszów</h1>
+<p id="p2">-6 ^C<button onclick="rozwijaj2()">Wincyj</button></p>
+<h1>Warszawa</h1>
+<p id="p1">-4 ^C<button onclick="rozwijaj1()">Wincyj</button> </p>
+<h1>Lwów</h1>
+<p id="p3">-6 ^C<button onclick="rozwijaj3()">Wincyj</button></p>
+
+</body>
+</html>
